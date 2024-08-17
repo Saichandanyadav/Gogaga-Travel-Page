@@ -1,0 +1,54 @@
+.navbar-container {
+  background-color: #ffffff;
+  padding: 2px;
+}
+
+.navbar-icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.span-word {
+  color: #048e75;
+}
+
+.brand-logo {
+  font-family: 'Arial', sans-serif;
+  font-size: 2rem;
+  color: #2bb673;
+  font-weight: bold 699;
+}
+
+.navbar-custom .navbar-toggler {
+  border-color: #2bb673;
+}
+
+.navbar-custom .navbar-container .nav-link,
+.navbar-custom .nav-dropdown-toggle {
+  color: #000;
+  margin-left: 1rem;
+}
+
+.navbar-custom .navbar-container .nav-dropdown-toggle {
+  font-size: 1.2rem;
+}
+
+.new-icons {
+  width: 18px;
+  height: 16px;
+  margin-left: 7px;
+}
+
+@media (max-width: 767px) {
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .nav-link {
+    margin-left: 0;
+  }
+}
